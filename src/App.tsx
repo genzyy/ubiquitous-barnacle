@@ -1,8 +1,8 @@
+import React from 'react'
 import { GlobalStyle } from './styles/GlobalStyle'
+import Greetings from './components/Greetings'
 
-import { Greetings } from './components/Greetings'
-
-export function App() {
+const App: React.FC = () => {
   return (
     <>
       <GlobalStyle />
@@ -10,3 +10,5 @@ export function App() {
     </>
   )
 }
+
+export default App
