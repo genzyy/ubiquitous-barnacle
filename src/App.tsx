@@ -3,8 +3,6 @@ import { GlobalStyle } from './styles/GlobalStyle'
 import Greetings from './components/Greetings'
 
 const App: React.FC = () => {
-  console.log('Hello')
-
   return (
     <>
       <GlobalStyle />
