@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Button'
-import { Container, Image, Text } from '@chakra-ui/react'
+import { Box, Container } from '@chakra-ui/react'
 
 const Greetings: React.FC = () => {
   const handleSayHello = () => {
@@ -10,16 +10,11 @@ const Greetings: React.FC = () => {
   }
 
   return (
-    <Container>
-      <Image
-        src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
-        alt="ReactJS logo"
-      />
-      <Text>
-        An Electron boilerplate including TypeScript, React, Jest and ESLint.
-      </Text>
-      <Button onClick={handleSayHello}>Send message to main process</Button>
-    </Container>
+    <Box>
+      <Container>
+        <Button onClick={handleSayHello}>Click me</Button>
+      </Container>
+    </Box>
   )
 }
 
