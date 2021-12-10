@@ -18,6 +18,12 @@ Just run `start` script.
 yarn start
 ```
 
+or
+
+```bash
+yarn run start
+```
+
 ## Packaging
 
 To generate the project package based on the OS you're running on, just run:
@@ -25,10 +31,6 @@ To generate the project package based on the OS you're running on, just run:
 ```bash
 yarn package
 ```
-
-## Contributing
-
-Pull requests are always welcome 😃.
 
 ## License
 
